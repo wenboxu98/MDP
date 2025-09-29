@@ -17,3 +17,18 @@ To train our model from scratch, please run :
 ```
 python3 train.py
 ```
+
+
+## Citation
+```shell
+@article{xu2025multimodal,
+  title={A multimodal deviation perceiving framework for weakly-supervised temporal forgery localization},
+  author={Xu, Wenbo and Wu, Junyan and Lu, Wei and Luo, Xiangyang and Wang, Qian},
+  journal={arXiv preprint arXiv:2507.16596},
+  year={2025}
+}
+```
+
+## Acknowledgement 
+* [CoLA](https://openaccess.thecvf.com/content/CVPR2021/html/Zhang_CoLA_Weakly-Supervised_Temporal_Action_Localization_With_Snippet_Contrastive_Learning_CVPR_2021_paper.html) provides useful strategy for weakly-supervised  learning.
+* [UniCaCLF](https://arxiv.org/pdf/2506.08493) and [UMMAFormer](https://github.com/ymhzyj/UMMAFormer/blob/main/README.md) provide useful evaluation metrics for temporal forgery localization.
